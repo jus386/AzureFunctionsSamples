@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "UploadImagePage": {
+      "matchCondition": {
+        "route": "/upload.html"
+      },
+      "backendUri": "https://<LINK_TO_YOUR_HTML_PAGE>"
+    }
+  }
+}
